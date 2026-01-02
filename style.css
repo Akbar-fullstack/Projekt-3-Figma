@@ -1,0 +1,281 @@
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+select{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.header_block{
+    background-image: url("./img/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text h1{ 
+    position: absolute;
+    width: 445px;
+    height: 149px;
+    left: 250px;
+    top: 226px;
+    font-weight: 100;
+    font-size: 85px;
+}
+
+.header-text p{
+    position: absolute;
+    width: 496px;
+    height: 36px;
+    left: 275px;
+    top: 375px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header-text button{
+    position: absolute;
+    width: 296px;
+    height: 58px;
+    background-color: black;
+    color: white;
+    left: 256px;
+    top: 456px;
+}
+
+.main_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.main_block_text{
+    width: 540px;
+}
+
+.main_block_text a{
+    color: red;
+}
+
+.main_box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+button{
+    padding: 10px 130px 10px 10px;
+    width: 300px;
+    background-color: white;
+    border: solid 1px gray;
+}
+
+.main_image img{
+    width: 300px;
+}
+
+.main_inphoto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_block-img img{
+    width: 500px;
+}
+
+.main_block-img{
+    position: relative;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.img-block{
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+
+.main-img-limon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-img-limon img{
+    margin: 50px 30px auto;
+}
+
+.main-limon{
+    margin: 50px auto;
+}
+
+.main-limon h1{
+    width: 321px; 
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+}
+
+.main-limon input{
+    width: 80%;
+    border: none;
+    text-decoration: underline;
+    background: #F3F3F3;
+}
+
+.main-limon{
+    width: 1243px;
+   background: #F3F3F3;
+   height: 455px;
+}
+
+.main-limon button{
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px 20px auto;
+}
+
+
+
+.footer1{
+    margin: 80px 90px;
+    position: relative;
+    left: 200px;
+}
+
+.footer1 p{
+    color: gray;
+}
+
+footer{
+    display: flex;
+}
+
+.footer2{
+    margin: 80px 400px;
+}
+
+.footer2 p{
+    color: gray;
+}
+
+.footer-img-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img{
+    margin-top: 80px;
+    margin-right: 10px;
+    position: relative;
+    right: 200px;
+}
+
+.footer p{
+    color: gray;
+    position: absolute;
+    top: 3700px;
+    left: 800px;
+}
+
+.h-navbar{
+    position: absolute;
+    top: 10px;
+    width: 1505px;
+}
+
+.center-img img{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 600px;
+    background: #F3F3F3 ;
+}
+
+.center-image1{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   top: 150px;
+   left: 700px;
+   background: #F3F3F3;
+}
+
+.center-image2{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   top: 150px;
+   left: 1100px;
+   background: #F3F3F3;
+}
+
+.center-image3{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   top: 510px;
+   left: 700px;
+   background: #F3F3F3;
+}
+
+.center-image4{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   top: 510px;
+   left: 1100px;
+   background: #F3F3F3;
+}
+
+.footer12{
+    color: gray;
+    position: absolute;
+    top: 1400px;
+    left: 800px;
+}
+
+.footer-center{
+    margin: 80px 100px;
+    position: relative;
+}
+
+.footer-center h3{
+    color: gray;
+}
+
+.footer-center p{
+    color: gray;
+}
+

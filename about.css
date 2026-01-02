@@ -1,0 +1,229 @@
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+select{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.header-blockp{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+
+.header-block-img img{
+    width: 600px;
+    margin-left: 40px;
+}
+
+.header-block-img h1{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.header-block-img em{
+    color: pink;
+}
+
+.header-block-img{
+    display: flex;
+    gap: 50px;
+}
+
+.header-p{
+    border: solid 1px black;
+    width: 60px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    right: 300px;
+}
+
+.header-block-img  p{
+    color: gray;
+    margin: 200px auto;
+}
+
+.h3-header{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.header-block-img h3{
+    position: relative;
+    width: 101px;
+    height: 48px;
+    right: 570px;
+    top: 400px;
+    font-weight: 700;
+}
+.header-block button{
+    width: 270px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 700px;
+}
+
+.img-header img{
+    position: relative;
+    bottom: 140px;
+    left: 1000px;
+}
+
+.img1{
+    background-color: black;
+    width: 50px;
+}
+
+.main-block{
+    display: flex;
+}
+
+.main-p1{
+    width: 1000px;
+    color: #3C3C3C;
+}
+
+.main-block-1{
+    margin-left: 40px ;
+}
+
+.main-block{
+    margin-left: 40px;
+}
+
+.main-p{
+    color: gray;
+}
+
+.main-block-2{
+    margin-left: 40px;
+}
+
+.main-p-flex{
+    display: flex; gap: 20px;
+}
+
+.main-p-f{
+    color: gray;
+}
+
+.main_inphoto{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.main_image img{
+    width: 300px;
+    display: flex;
+}
+
+.main_image img:hover{
+    opacity: 0.5;
+}
+
+.main_inphoto1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_inphoto1 img{
+    animation: mars 5s infinite ;
+}
+
+@keyframes mars{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.main_image1 img{
+    width: 300px;
+}
+
+.footer1{
+    margin: 150px 90px;
+}
+
+.footer1 p{
+    color: gray;
+}
+
+footer{
+    display: flex;
+}
+
+.footer2{
+    margin: 150px 400px;
+}
+
+.footer2 p{
+    color: gray;
+}
+
+.footer-img-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.footer p{
+    color: gray;
+    position: absolute;
+    top: 3500px;
+    left: 800px;
+}
+
+.footer-center{
+    margin: 80px 100px;
+    position: relative;
+}
+
+.footer-center h3{
+    color: gray;
+}
+
+.footer-center p{
+    color: gray;
+}
